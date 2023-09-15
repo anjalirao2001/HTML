@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images8.alphacoders.com/116/1168080.jpg);
+    background-size: cover;
+    color: #f5eeee;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(245, 235, 235, 0.285);
+    border-radius: 300px;
+    backdrop-filter: blur(8px);
+  }
+
+  .search-input {
+    padding: 30px;
+    border-radius: 300px;
+    border: none;
+    background-color: #101115f3;
+    color: #eae0e0;
+  }
+
+  .header-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: underline;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00e6, 0 0 30px #4013e681, 0 0 40px #ff00e6, 0 0 50px #ff00e6;
+    text-align: center;
+  }
+
+  main {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .car-info {
+    width: 600px;
+    padding: 50px;
+    margin: 50px;
+    background-color: #3b45b347;
+    border-radius: 50px;
+    backdrop-filter: blur(8px);
+    color: #13f1e6;
+  }
+
+
+  .car-image {
+    width: 400%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 45px;
+  }
+
+  .table-container {
+position: relative;
+bottom: 0;
+right: 0;
+width: 1000px;
+padding: 100px;
+background-color: rgba(119, 49, 198, 0.357);
+border-radius: 3000px;
+color: #13f1e6;
+clear: both; /
+}
+
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+
+  th, td {
+padding: 10px;
+border-bottom: 1px solid #ffffff;
+text-align: center;
+  }

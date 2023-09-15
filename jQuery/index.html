@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Program</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#hide").click(function () {
+          $("p").hide();
+        });
+
+        $("#show").click(function () {
+          $("p").show();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Hide and show the paragraph</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati rem
+      harum delectus iste exercitationem odio pariatur molestias excepturi
+      laudantium, temporibus ad? Vitae voluptates veritatis dolor, enim quis
+      maiores asperiores atque eveniet expedita in minus accusamus quas, veniam
+      tempora modi. Quisquam esse ullam dignissimos sit quibusdam dolore magni,
+      omnis facilis odit commodi placeat fuga ratione quis facere reprehenderit
+      nemo. Nostrum, accusamus? Deleniti ex tenetur, eligendi natus corporis
+      sint repudiandae sapiente nulla odit nobis minus distinctio fugiat labore
+      explicabo a debitis quibusdam quo quam incidunt, delectus maiores
+      doloribus. Aperiam architecto excepturi, velit quas ab est blanditiis,
+      voluptas maxime corporis repudiandae adipisci consectetur.
+    </p>
+    <button id="show">Show</button>
+    <button id="hide">Hide</button>
+  </body>
+</html>

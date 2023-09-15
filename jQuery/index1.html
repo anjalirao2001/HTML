@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      clicked = true;
+      $(document).ready(function () {
+        $("button").click(function () {
+          if (clicked) {
+            $(this).css("background-color", "red");
+            clicked = false;
+          } else {
+            $(this).css("background-color", "blue");
+            clicked = true;
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>Change the color of the Button</h1>
+    <h1>
+      <button
+        id="color"
+        style="width: 100px; width: 100px; padding: 200px; text-align: center"
+      >
+        Change color
+      </button>
+    </h1>
+  </body>
+</html>
