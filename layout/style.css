@@ -1,0 +1,53 @@
+.header{
+    border: 2px solid black;
+    width: 99%;
+    height: 80px;
+}
+
+.sidepannel
+{
+    border: 2px solid black;
+    width: 20%;
+    height: 500px;
+    float: left;
+}
+
+.body{
+    border: 2px solid black;
+    width: 79%;
+    height: 500px;
+    float: left;
+}
+
+.b1{
+    border: 2px solid black;
+    width: 90%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 5%;
+}
+
+.b2{
+    border: 2px solid black;
+    width: 40%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 5%;
+    float: left;
+}
+
+.b3{
+    border: 2px solid black;
+    width: 40%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 10%;
+    float: left;
+} 
+
+.footer{
+    border: 2px solid black;
+    width: 100%;
+    height: 80px;
+    margin-top: 500px;
+}
